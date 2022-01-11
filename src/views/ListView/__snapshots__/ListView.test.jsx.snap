@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should fetch and render a list of characters 1`] = `
+<div>
+  <header>
+    <h1>
+      Rick and Morty Characters
+    </h1>
+    <h4>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+      <span>
+         / 
+        <a
+          href="/characters"
+        >
+          characters
+        </a>
+      </span>
+    </h4>
+  </header>
+  <div
+    class="charList"
+  >
+    <a
+      class="clickable"
+      href="/characters/1"
+    >
+      <div
+        class="charCard"
+      >
+        <h3
+          class="name"
+        >
+          bob
+        </h3>
+        <div
+          class="origin"
+        >
+          Origin: 
+        </div>
+        <div>
+          Status: 
+          hi erich
+        </div>
+        <img
+          alt="bob"
+          src="asdf.jpg"
+        />
+      </div>
+    </a>
+    <a
+      class="clickable"
+      href="/characters/2"
+    >
+      <div
+        class="charCard"
+      >
+        <h3
+          class="name"
+        >
+          bob2
+        </h3>
+        <div
+          class="origin"
+        >
+          Origin: 
+        </div>
+        <div>
+          Status: 
+          hi erich
+        </div>
+        <img
+          alt="bob2"
+          src="asdf.jpg"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+`;
