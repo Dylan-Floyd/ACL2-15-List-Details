@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a list of characters 1`] = `
+<div>
+  <div
+    class="charList"
+  >
+    <a
+      class="clickable"
+      href="/characters/1"
+    >
+      <div
+        class="charCard"
+      >
+        <h3
+          class="name"
+        >
+          Rick Sanchez
+        </h3>
+        <div
+          class="origin"
+        >
+          Origin: 
+        </div>
+        <div>
+          Status: 
+          Alive
+        </div>
+        <img
+          alt="Rick Sanchez"
+          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        />
+      </div>
+    </a>
+    <a
+      class="clickable"
+      href="/characters/2"
+    >
+      <div
+        class="charCard"
+      >
+        <h3
+          class="name"
+        >
+          Rick Sanchez2
+        </h3>
+        <div
+          class="origin"
+        >
+          Origin: 
+        </div>
+        <div>
+          Status: 
+          Alive
+        </div>
+        <img
+          alt="Rick Sanchez2"
+          src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+`;

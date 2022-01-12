@@ -4,7 +4,7 @@ import Routes from './Routes.jsx';
 function App() {
   return (
     <BrowserRouter>
-      <Routes/>
+      <Routes />
     </BrowserRouter>
   );
 }
